@@ -1,6 +1,4 @@
-<?php
-  $number = 0;
-?>
+<?php $number = 0; ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -12,8 +10,13 @@
       <?php
         while ($number < 10) {
           $number++;
-          echo $number;
+          echo $number . ' ';
         }
+/* Autre possibilité : boucle for
+  for ($number = 0; $number < 10; $number++) {
+    echo $number . ' ';
+  }
+*\
       ?>
     </p>
   </body>
